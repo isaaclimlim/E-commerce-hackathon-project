@@ -1,10 +1,9 @@
-import { createRoot } from 'react-dom/client';
+
 import App from './App.jsx';
 import './index.css';
 import { Route, RouterProvider, createRoutesFromElements } from 'react-router';
 import { createBrowserRouter } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import store from './redux/store.js';
+
 
 // Private Route
 import PrivateRoute from './components/PrivateRoute.jsx';
@@ -26,14 +25,6 @@ import Favorites from './pages/Products/Favorites.jsx';
 import ProductDetails from './pages/Products/ProductDetails.jsx';
 import Cart from './pages/Cart.jsx';
 import Shop from './pages/Shop.jsx';
-import Shipping from './pages/Orders/Shipping.jsx';
-import PlaceOrder from './pages/Orders/PlaceOrder.jsx';
-
-// import { PayPalScriptProvider} from '@paypal/react-paypal-js';
-import Order from './pages/Orders/Order.jsx';
-import UserOrder from './pages/User/UserOrder.jsx';
-import OrderList from './pages/Admin/OrderList.jsx';
-import AdminDashboard from './pages/Admin/AdminDashboard.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
