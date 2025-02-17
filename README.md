@@ -1,4 +1,4 @@
-# mern e-commerce store
+# E-commerce website
 
 This is a full-stack e-commerce application built using the MERN (MongoDB, Express.js, React, Node.js) stack.
 
@@ -39,7 +39,6 @@ NODE_ENV=development
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-PAYPAL_CLIENT_ID=your_paypal_client_id
 ```
 
 5. Run the application:
